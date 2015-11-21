@@ -1,1 +1,3 @@
 Plug 'altercation/vim-colors-solarized'
+Plug 'Lokaltog/vim-powerline'
+Plug 'stephenmckinney/vim-solarized-powerline'
