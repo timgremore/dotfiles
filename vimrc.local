@@ -33,6 +33,9 @@ nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
 
+let g:tslime_always_current_session = 1
+let g:tslime_always_current_window = 1
+
 let g:vroom_use_colors = 1
 let g:vroom_write_all = 1
 let g:vroom_spec_command = 'call Send_to_Tmux("rspec {spec}\n")'
