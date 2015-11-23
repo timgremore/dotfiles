@@ -1,2 +1,8 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
+
 eval "$(rbenv init -)"
+
+if [ -f "~/.bin/tmuxinator.zsh" ]
+then
+  source ~/.bin/tmuxinator.zsh
+fi
