@@ -7,6 +7,7 @@ Plug 'jgdavey/vim-turbux'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/unimpaired'
 Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'mattn/emmet-vim'
 
 " See https://avi.io/blog/2014/08/28/my-development-workflow-vim-tmux-terminal-awesomeness/
 " and https://github.com/stefanoverna/vim-plumber
