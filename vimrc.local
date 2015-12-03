@@ -6,6 +6,11 @@ let g:solarized_termtrans = 1
 set background=dark
 colorscheme solarized
 
+" Fast saving, reload, quit
+nmap <leader>w :w<cr>
+nmap <leader>e :e<cr>
+nmap <leader>q :q<cr>
+
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
