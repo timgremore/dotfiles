@@ -14,6 +14,11 @@ nmap <leader>q :q<cr>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" Turbux
+let g:no_turbux_mappings = 1
+map <leader>T <Plug>SendTestToTmux
+map <leader>t <Plug>SendFocusedTestToTmux
+
 " http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
 set relativenumber
 set number
