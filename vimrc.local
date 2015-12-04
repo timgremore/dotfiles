@@ -11,6 +11,12 @@ nmap <leader>w :w<cr>
 nmap <leader>e :e<cr>
 nmap <leader>q :q<cr>
 
+" Navigate vim panes
+nnoremap <leader>l <c-w><c-l>
+nnoremap <leader>k <c-w><c-k>
+nnoremap <leader>j <c-w><c-j>
+nnoremap <leader>h <c-w><c-h>
+
 " Format JSON string
 function! FormatJSON()
   execute '%!python -m json.tool' | w
