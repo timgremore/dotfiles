@@ -11,6 +11,11 @@ nmap <leader>w :w<cr>
 nmap <leader>e :e<cr>
 nmap <leader>q :q<cr>
 
+" Format JSON string
+function! FormatJSON()
+  execute '%!python -m json.tool' | w
+endfunction
+
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
