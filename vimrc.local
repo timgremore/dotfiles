@@ -26,6 +26,7 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 " Turbux
+let g:turbux_test_type = 1
 let g:no_turbux_mappings = 1
 map <leader>T <Plug>SendTestToTmux
 map <leader>t <Plug>SendFocusedTestToTmux
