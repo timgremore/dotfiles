@@ -31,6 +31,9 @@ let g:no_turbux_mappings = 1
 map <leader>T <Plug>SendTestToTmux
 map <leader>t <Plug>SendFocusedTestToTmux
 
+" Vimix (Elixir testing)
+let g:vimix_map_keys = 1
+
 " http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
 set relativenumber
 set number
