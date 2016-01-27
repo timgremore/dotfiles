@@ -9,6 +9,7 @@ Plug 'joukevandermaas/vim-ember-hbs'
 Plug 'mattn/emmet-vim'
 Plug 'ngmy/vim-rubocop'
 Plug 'ivalkeen/vim-simpledb'
+Plug 'avdgaag/vim-phoenix'
 Plug 'elixir-lang/vim-elixir'
 Plug 'spiegela/vimix'
 
