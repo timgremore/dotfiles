@@ -12,6 +12,8 @@ Plug 'ivalkeen/vim-simpledb'
 Plug 'avdgaag/vim-phoenix'
 Plug 'elixir-lang/vim-elixir'
 Plug 'spiegela/vimix'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 " See https://avi.io/blog/2014/08/28/my-development-workflow-vim-tmux-terminal-awesomeness/
 " and https://github.com/stefanoverna/vim-plumber
