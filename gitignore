@@ -11,3 +11,4 @@ tmp/**/*
 !tmp/cache/.keep
 .plumber
 .byebug_history
+explain.sql
