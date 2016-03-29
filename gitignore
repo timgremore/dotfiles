@@ -12,3 +12,5 @@ tmp/**/*
 .plumber
 .byebug_history
 explain.sql
+.powenv
+dump.rdb
