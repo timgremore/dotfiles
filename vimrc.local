@@ -28,8 +28,14 @@ let g:ctrlp_cmd = 'CtrlP'
 " Turbux
 let g:turbux_test_type = 1
 let g:no_turbux_mappings = 1
-map <leader>T <Plug>SendTestToTmux
-map <leader>t <Plug>SendFocusedTestToTmux
+" map <leader>T <Plug>SendTestToTmux
+" map <leader>t <Plug>SendFocusedTestToTmux
+
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
 
 " Vimix (Elixir testing)
 let g:vimix_map_keys = 1
