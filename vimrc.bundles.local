@@ -16,6 +16,7 @@ Plug 'spiegela/vimix'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'janko-m/vim-test'
+Plug 'elzr/vim-json'
 
 " See https://avi.io/blog/2014/08/28/my-development-workflow-vim-tmux-terminal-awesomeness/
 " and https://github.com/stefanoverna/vim-plumber
